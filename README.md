@@ -1,8 +1,11 @@
-# 🐚 Aprende Bash en 15 Días — Guía Completa de Scripting y Terminal
+![Titulo](assets/cursobash.png)
+
+# 🎓 Aprende Bash en 15 Días — Guía Completa de Scripting y Terminal
 
 [![Bash](https://img.shields.io/badge/Shell-Bash-4EAA25?logo=gnu-bash&logoColor=white&style=for-the-badge)](#)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](file:///x:/project1/curso-bash/LICENSE)
 [![Nivel: Básico a Avanzado](https://img.shields.io/badge/Nivel-B%C3%A1sico%20a%20Avanzado-blue?style=for-the-badge)](#)
+[![Spanish](https://img.shields.io/badge/Language-Spanish-green?style=for-the-badge)](https://github.com/tecxion/curso-bash-15-dias/blob/main/README.md)
 
 ¡Bienvenido/a a **Aprende Bash en 15 Días**! Esta es una guía paso a paso, práctica y diseñada especialmente para llevarte desde el desconocimiento absoluto de la línea de comandos hasta un nivel avanzado en el desarrollo de scripts de automatización, administración de sistemas y herramientas Unix.
 
@@ -97,3 +100,5 @@ Si encuentras algún error tipográfico, quieres sugerir mejoras en las explicac
 
 </a>
 </h1>
+
+![TecXarT](assets/tecxartv2.png)
