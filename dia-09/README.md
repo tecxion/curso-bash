@@ -145,6 +145,10 @@ done
 
 ---
 
+<h3 align="center">
+<a href="../dia-08/README.md">Día 8</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-10/README.md">Día 10</a>
+</h3>
+
 <details>
 <summary>💡 Ver Soluciones Sugeridas</summary>
 
