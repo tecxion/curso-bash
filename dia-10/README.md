@@ -1,5 +1,5 @@
-![Titulo](./assets/cursobash.png)
-[Día 9](./dia-09/README.md) -- [Inicio](./README.md) -- [Día 11](./dia-11/README.md)
+![Titulo](../assets/cursobash.png)
+[Día 9](../dia-09/README.md) -- [Inicio](../README.md) -- [Día 11](../dia-11/README.md)
 
 # 📅 Día 10: Funciones y Modularidad en Scripts
 

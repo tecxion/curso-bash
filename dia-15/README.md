@@ -1,5 +1,5 @@
-![Titulo](./assets/cursobash.png)
-[Día 14](./dia-14/README.md) -- [Inicio](./README.md)
+![Titulo](../assets/cursobash.png)
+[Día 14](../dia-14/README.md) -- [Inicio](../README.md)
 
 # 📅 Día 15: Automatización y Proyecto Final
 

@@ -1,5 +1,5 @@
-![Titulo](./assets/cursobash.png)
-[Día 11](./dia-11/README.md) -- [Inicio](./README.md) -- [Día 13](./dia-13/README.md)
+![Titulo](../assets/cursobash.png)
+[Día 11](../dia-11/README.md) -- [Inicio](../README.md) -- [Día 13](../dia-13/README.md)
 
 # 📅 Día 12: Gestión de Procesos y Señales
 

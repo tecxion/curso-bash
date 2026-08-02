@@ -1,5 +1,5 @@
-![Titulo](./assets/cursobash.png)
-[Día 10](./dia-10/README.md) -- [Inicio](./README.md) -- [Día 12](./dia-12/README.md)
+![Titulo](../assets/cursobash.png)
+[Día 10](../dia-10/README.md) -- [Inicio](../README.md) -- [Día 12](../dia-12/README.md)
 
 # 📅 Día 11: Editores de Flujo (sed y awk)
 
