@@ -1,0 +1,15 @@
+# Excluir archivos temporales y del sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*~
+
+# Excluir registros y depuración
+*.log
+
+# Entornos virtuales si los hubiera
+.venv/
+venv/
+env/
+__pycache__/
