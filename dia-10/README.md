@@ -1,3 +1,6 @@
+![Titulo](assets/cursobash.png)
+[Día 9](./dia-09/README.md) -- [Inicio](./README.md) -- [Día 11](./dia-11/README.md)
+
 # 📅 Día 10: Funciones y Modularidad en Scripts
 
 A medida que escribes scripts más complejos, tu código puede volverse largo y difícil de mantener. Hoy aprenderemos a agrupar bloques de código reutilizables mediante **funciones** y a modularizar nuestros proyectos importando scripts externos.
@@ -9,6 +12,7 @@ A medida que escribes scripts más complejos, tu código puede volverse largo y 
 Una función es un bloque de comandos que recibe un nombre y puede ser invocado en cualquier parte del script tras haber sido declarada.
 
 ### Sintaxis Estándar:
+
 ```bash
 # Sintaxis recomendada y limpia
 nombre_de_la_funcion() {
@@ -65,8 +69,9 @@ echo "$variable_local"  # Imprime una línea vacía (no existe fuera de la funci
 ## 📘 Códigos de Salida y `return`
 
 Las funciones en Bash no devuelven objetos ni textos complejos al llamador mediante un comando "return". El comando `return` en Bash sirve exclusivamente para reportar un **código de estado de salida numérico** (entre 0 y 255).
-*   `return 0`: Éxito.
-*   `return 1` (o mayor): Error.
+
+- `return 0`: Éxito.
+- `return 1` (o mayor): Error.
 
 Para capturar la salida de texto de una función, debes usar la sustitución de comandos `$(función)`.
 
@@ -91,6 +96,7 @@ fi
 ---
 
 ## 📘 Modularidad usando `source`
+
 El comando `source` (o su equivalente abreviado `.`) ejecuta un script en el entorno de la shell actual. Es ideal para separar configuraciones o librerías de funciones en un archivo aparte.
 
 ```bash
@@ -106,20 +112,23 @@ mi_funcion_externa
 ## 💻 Ejercicios Prácticos
 
 ### Nivel Fácil
+
 1. Crea un script llamado `funciones_basicas.sh`.
 2. Define una función llamada `mostrar_bienvenida` que imprima un mensaje decorado (por ejemplo, con líneas divisorias `======`).
 3. Invoca la función dos veces en tu script.
 
 ### Nivel Medio
+
 1. Crea un script llamado `operaciones.sh`.
 2. Escribe una función llamada `sumar` que reciba dos números como argumentos, calcule la suma y la imprima por pantalla.
 3. Escribe otra función llamada `es_par` que reciba un número como argumento. Si el número es par, debe retornar un código de estado `0` (éxito), de lo contrario un `1` (error).
 4. Invoca las funciones y muestra mensajes adecuados evaluando el resultado de las funciones usando la variable `$?`.
 
 ### Nivel Difícil
+
 1. Diseña un sistema modular de dos archivos:
-   *   Un archivo de configuración llamado `config.env` que contenga variables como `NOMBRE_APP="Respaldos"`, `LIMITE_DIAS=7`, `DIRECTORIO_DESTINO="/var/backups"`.
-   *   Un script ejecutable llamado `ejecutor.sh`.
+   - Un archivo de configuración llamado `config.env` que contenga variables como `NOMBRE_APP="Respaldos"`, `LIMITE_DIAS=7`, `DIRECTORIO_DESTINO="/var/backups"`.
+   - Un script ejecutable llamado `ejecutor.sh`.
 2. El script `ejecutor.sh` debe importar el archivo de configuración en su inicio.
 3. Define una función dentro de `ejecutor.sh` llamada `validar_directorio`. Esta debe comprobar si el `DIRECTORIO_DESTINO` definido en `config.env` existe. Si no existe, debe intentar crearlo y retornar `0`. Si falla la creación, debe imprimir un mensaje de error crítico y retornar `1`.
 4. El script principal debe terminar con un `exit 0` si todo fue bien, o un `exit 1` si ocurrió algún fallo en las funciones.
@@ -130,16 +139,18 @@ mi_funcion_externa
 <summary>💡 Ver Soluciones Sugeridas</summary>
 
 ### Nivel Fácil
+
 1. El script `funciones_basicas.sh`:
+
    ```bash
    #!/bin/bash
-   
+
    mostrar_bienvenida() {
        echo "==================================="
        echo "   BIENVENIDO AL SISTEMA BASH     "
        echo "==================================="
    }
-   
+
    # Invocar
    mostrar_bienvenida
    echo "Haciendo algunas tareas..."
@@ -147,17 +158,19 @@ mi_funcion_externa
    ```
 
 ### Nivel Medio
+
 1. El script `operaciones.sh`:
+
    ```bash
    #!/bin/bash
-   
+
    sumar() {
        local num1="$1"
        local num2="$2"
        local resultado=$((num1 + num2))
        echo "La suma de $num1 y $num2 es: $resultado"
    }
-   
+
    es_par() {
        local num="$1"
        # Si el resto de la división por 2 es 0, es par
@@ -167,10 +180,10 @@ mi_funcion_externa
            return 1
        fi
    }
-   
+
    # Pruebas
    sumar 10 25
-   
+
    numero_prueba=17
    es_par "$numero_prueba"
    if [[ $? -eq 0 ]]; then
@@ -181,6 +194,7 @@ mi_funcion_externa
    ```
 
 ### Nivel Difícil
+
 1. Archivo `config.env`:
    ```bash
    # Configuración de variables
@@ -189,9 +203,10 @@ mi_funcion_externa
    DIRECTORIO_DESTINO="./backups_dummy" # Cambiado a ruta local para evitar problemas de permisos
    ```
 2. Archivo `ejecutor.sh`:
+
    ```bash
    #!/bin/bash
-   
+
    # Importar el archivo de configuración
    if [[ -f "config.env" ]]; then
        source config.env
@@ -199,7 +214,7 @@ mi_funcion_externa
        echo "Error Crítico: No se pudo cargar config.env"
        exit 1
    fi
-   
+
    validar_directorio() {
        # Validar si existe el directorio
        if [[ -d "$DIRECTORIO_DESTINO" ]]; then
@@ -217,17 +232,17 @@ mi_funcion_externa
            fi
        fi
    }
-   
+
    # Ejecución principal
    echo "Iniciando aplicación: $NOMBRE_APP"
    validar_directorio
-   
+
    # Evaluar código de retorno de la función
    if [[ $? -ne 0 ]]; then
        echo "Fallo en la validación inicial del script. Saliendo con error."
        exit 1
    fi
-   
+
    echo "Aplicación completada con éxito."
    exit 0
    ```

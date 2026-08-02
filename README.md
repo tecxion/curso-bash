@@ -15,23 +15,23 @@ Inspirado en el formato de _30 Days of Python_, este manual incluye teoría deta
 
 ## 📚 Índice del Curso
 
-| Día | Tema                                                                                                           | Descripción Corta                                                                 |     Nivel     |
-| :-: | :------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------- | :-----------: |
-| 01  | [Día 1: Introducción a Bash y la CLI](file:///x:/project1/curso-bash/01-fundamentos/dia-01/README.md)          | Primeros pasos en la terminal, comandos esenciales de navegación y ayuda.         |   🟢 Básico   |
-| 02  | [Día 2: Manipulación y Visualización](file:///x:/project1/curso-bash/01-fundamentos/dia-02/README.md)          | Leer, copiar, mover, renombrar y eliminar archivos y directorios. Enlaces.        |   🟢 Básico   |
-| 03  | [Día 3: Permisos y Usuarios](file:///x:/project1/curso-bash/01-fundamentos/dia-03/README.md)                   | Permisos de lectura, escritura y ejecución (`chmod`, `chown`, `sudo`).            |   🟢 Básico   |
-| 04  | [Día 4: Entrada/Salida, Redirecciones y Pipes](file:///x:/project1/curso-bash/01-fundamentos/dia-04/README.md) | Redireccionar flujos de datos (`>`, `>>`, `<`), tuberías (`\|`) y `tee`.          | 🟡 Intermedio |
-| 05  | [Día 5: Procesamiento de Texto Básico](file:///x:/project1/curso-bash/01-fundamentos/dia-05/README.md)         | Filtrar e investigar texto usando `grep`, `wc`, `sort`, `uniq`, `cut` y `tr`.     | 🟡 Intermedio |
-| 06  | [Día 6: Variables y Entorno](file:///x:/project1/curso-bash/02-scripting/dia-06/README.md)                     | Definir variables, variables del sistema, exportar y sustitución de comandos.     | 🟡 Intermedio |
-| 07  | [Día 7: Aritmética y Comparaciones](file:///x:/project1/curso-bash/02-scripting/dia-07/README.md)              | Cálculos matemáticos y comprobación de estados de archivos, números y strings.    | 🟡 Intermedio |
-| 08  | [Día 8: Estructuras Condicionales](file:///x:/project1/curso-bash/02-scripting/dia-08/README.md)               | Tomar decisiones con `if`, `elif`, `else` y menús con `case`.                     | 🟡 Intermedio |
-| 09  | [Día 9: Bucles e Iteraciones](file:///x:/project1/curso-bash/02-scripting/dia-09/README.md)                    | Ciclos `for`, `while` y `until`. Lectura automatizada de archivos de texto.       | 🟡 Intermedio |
-| 10  | [Día 10: Funciones y Modularidad](file:///x:/project1/curso-bash/02-scripting/dia-10/README.md)                | Reutilizar código, parámetros posicionales, código de retorno y `source`.         | 🟡 Intermedio |
-| 11  | [Día 11: Editores de Flujo (sed y awk)](file:///x:/project1/curso-bash/03-avanzado/dia-11/README.md)           | Reemplazos masivos con `sed` y procesamiento de reportes de texto con `awk`.      |  🔴 Avanzado  |
-| 12  | [Día 12: Gestión de Procesos y Señales](file:///x:/project1/curso-bash/03-avanzado/dia-12/README.md)           | Tareas en background (`bg`, `fg`), monitoreo, comando `kill` y captura (`trap`).  |  🔴 Avanzado  |
-| 13  | [Día 13: Búsquedas, Compresión y Red](file:///x:/project1/curso-bash/03-avanzado/dia-13/README.md)             | Buscar archivos con `find`, comprimir con `tar`/`zip` y redes con `curl`/`rsync`. |  🔴 Avanzado  |
-| 14  | [Día 14: Depuración, Seguridad y Robustez](file:///x:/project1/curso-bash/03-avanzado/dia-14/README.md)        | Modo seguro `set -euo pipefail`, depuración con `set -x` y `ShellCheck`.          |  🔴 Avanzado  |
-| 15  | [Día 15: Automatización y Proyecto Final](file:///x:/project1/curso-bash/03-avanzado/dia-15/README.md)         | Tareas automáticas con `cron` y desarrollo de un script de respaldo avanzado.     |  🔴 Avanzado  |
+| Día | Tema                                                               | Descripción Corta                                                                 |     Nivel     |
+| :-: | :----------------------------------------------------------------- | :-------------------------------------------------------------------------------- | :-----------: |
+| 01  | [Día 1: Introducción a Bash y la CLI](./dia-01/README.md)          | Primeros pasos en la terminal, comandos esenciales de navegación y ayuda.         |   🟢 Básico   |
+| 02  | [Día 2: Manipulación y Visualización](./dia-02/README.md)          | Leer, copiar, mover, renombrar y eliminar archivos y directorios. Enlaces.        |   🟢 Básico   |
+| 03  | [Día 3: Permisos y Usuarios](./dia-03/README.md)                   | Permisos de lectura, escritura y ejecución (`chmod`, `chown`, `sudo`).            |   🟢 Básico   |
+| 04  | [Día 4: Entrada/Salida, Redirecciones y Pipes](./dia-04/README.md) | Redireccionar flujos de datos (`>`, `>>`, `<`), tuberías (`\|`) y `tee`.          | 🟡 Intermedio |
+| 05  | [Día 5: Procesamiento de Texto Básico](./dia-05/README.md)         | Filtrar e investigar texto usando `grep`, `wc`, `sort`, `uniq`, `cut` y `tr`.     | 🟡 Intermedio |
+| 06  | [Día 6: Variables y Entorno](./dia-06/README.md)                   | Definir variables, variables del sistema, exportar y sustitución de comandos.     | 🟡 Intermedio |
+| 07  | [Día 7: Aritmética y Comparaciones](./dia-07/README.md)            | Cálculos matemáticos y comprobación de estados de archivos, números y strings.    | 🟡 Intermedio |
+| 08  | [Día 8: Estructuras Condicionales](./dia-08/README.md)             | Tomar decisiones con `if`, `elif`, `else` y menús con `case`.                     | 🟡 Intermedio |
+| 09  | [Día 9: Bucles e Iteraciones](./dia-09/README.md)                  | Ciclos `for`, `while` y `until`. Lectura automatizada de archivos de texto.       | 🟡 Intermedio |
+| 10  | [Día 10: Funciones y Modularidad](./dia-10/README.md)              | Reutilizar código, parámetros posicionales, código de retorno y `source`.         | 🟡 Intermedio |
+| 11  | [Día 11: Editores de Flujo (sed y awk)](./dia-11/README.md)        | Reemplazos masivos con `sed` y procesamiento de reportes de texto con `awk`.      |  🔴 Avanzado  |
+| 12  | [Día 12: Gestión de Procesos y Señales](./dia-12/README.md)        | Tareas en background (`bg`, `fg`), monitoreo, comando `kill` y captura (`trap`).  |  🔴 Avanzado  |
+| 13  | [Día 13: Búsquedas, Compresión y Red](./dia-13/README.md)          | Buscar archivos con `find`, comprimir con `tar`/`zip` y redes con `curl`/`rsync`. |  🔴 Avanzado  |
+| 14  | [Día 14: Depuración, Seguridad y Robustez](./dia-14/README.md)     | Modo seguro `set -euo pipefail`, depuración con `set -x` y `ShellCheck`.          |  🔴 Avanzado  |
+| 15  | [Día 15: Automatización y Proyecto Final](./dia-15/README.md)      | Tareas automáticas con `cron` y desarrollo de un script de respaldo avanzado.     |  🔴 Avanzado  |
 
 ---
 
