@@ -1,4 +1,4 @@
-![Titulo](assets/cursobash.png)
+![Titulo](./assets/cursobash.png)
 [Día 6](./dia-06/README.md) -- [Inicio](./README.md) -- [Día 8](./dia-08/README.md)
 
 # 📅 Día 7: Aritmética y Comparaciones

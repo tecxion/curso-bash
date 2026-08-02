@@ -1,4 +1,4 @@
-![Titulo](assets/cursobash.png)
+![Titulo](./assets/cursobash.png)
 [Día 2](./dia-02/README.md) -- [Inicio](./README.md) -- [Día 4](./dia-04/README.md)
 
 # 📅 Día 3: Permisos y Usuarios en Linux/Bash

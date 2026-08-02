@@ -1,4 +1,4 @@
-![Titulo](assets/cursobash.png)
+![Titulo](./assets/cursobash.png)
 [Día 1](./dia-01/README.md) -- [Inicio](./README.md) -- [Día 2](./dia-02/README.md)
 
 # 📅 Día 2: Manipulación y Visualización de Archivos

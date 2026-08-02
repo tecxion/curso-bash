@@ -1,4 +1,4 @@
-![Titulo](assets/cursobash.png)
+![Titulo](./assets/cursobash.png)
 [Día 7](./dia-07/README.md) -- [Inicio](./README.md) -- [Día 9](./dia-09/README.md)
 
 # 📅 Día 8: Estructuras Condicionales (if, case)

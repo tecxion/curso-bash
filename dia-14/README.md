@@ -1,4 +1,4 @@
-![Titulo](assets/cursobash.png)
+![Titulo](./assets/cursobash.png)
 [Día 13](./dia-13/README.md) -- [Inicio](./README.md) -- [Día 15](./dia-15/README.md)
 
 # 📅 Día 14: Depuración, Seguridad y Robustez

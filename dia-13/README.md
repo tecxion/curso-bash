@@ -1,4 +1,4 @@
-![Titulo](assets/cursobash.png)
+![Titulo](./assets/cursobash.png)
 [Día 12](./dia-12/README.md) -- [Inicio](./README.md) -- [Día 14](./dia-14/README.md)
 
 # 📅 Día 13: Búsquedas, Compresión y Red

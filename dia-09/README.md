@@ -1,4 +1,4 @@
-![Titulo](assets/cursobash.png)
+![Titulo](./assets/cursobash.png)
 [Día 8](./dia-08/README.md) -- [Inicio](./README.md) -- [Día 10](./dia-10/README.md)
 
 # 📅 Día 9: Bucles e Iteraciones (for, while, until)

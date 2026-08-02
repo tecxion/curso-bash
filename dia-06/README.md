@@ -1,4 +1,4 @@
-![Titulo](assets/cursobash.png)
+![Titulo](./assets/cursobash.png)
 [Día 5](./dia-05/README.md) -- [Inicio](./README.md) -- [Día 7](./dia-07/README.md)
 
 # 📅 Día 6: Variables y Entorno en Bash

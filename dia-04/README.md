@@ -1,4 +1,4 @@
-![Titulo](assets/cursobash.png)
+![Titulo](./assets/cursobash.png)
 [Día 3](./dia-03/README.md) -- [Inicio](./README.md) -- [Día 5](./dia-05/README.md)
 
 # 📅 Día 4: Entrada/Salida, Redirecciones y Pipes

@@ -1,4 +1,4 @@
-![Titulo](assets/cursobash.png)
+![Titulo](./assets/cursobash.png)
 [Día 5](./dia-04/README.md) -- [Inicio](./README.md) -- [Día 6](./dia-06/README.md)
 
 # 📅 Día 5: Procesamiento de Texto Básico
