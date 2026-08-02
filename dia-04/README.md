@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-03/README.md">Día 3</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-05/README.md">Día 5</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 3](../dia-03/README.md) -- [Inicio](../README.md) -- [Día 5](../dia-05/README.md)
 
 # 📅 Día 4: Entrada/Salida, Redirecciones y Pipes
 
@@ -120,6 +123,10 @@ ls -l | tee listado.txt
    - `cat archivo.txt`
 2. Investiga qué hace la redirección `2>&1`. ¿Qué diferencia hay entre usar `comando > log.txt 2>&1` y usar `comando 2>&1 > log.txt`? (Pruébalo con algún comando que genere salida y error).
 3. Utilizando `echo`, una tubería, y el comando `tee`, escribe la palabra "Prueba de tee" para que se muestre en pantalla y, a la vez, se añada (sin borrar el contenido previo) al final del archivo `fecha.txt` creado en el Nivel Fácil. (Pista: consulta `man tee` para ver cómo añadir en lugar de sobrescribir).
+
+<h3 align="center">
+<a href="../dia-03/README.md">Día 3</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-05/README.md">Día 5</a>
+</h3>
 
 ---
 

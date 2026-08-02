@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-06/README.md">Día 6</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-08/README.md">Día 8</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 6](../dia-06/README.md) -- [Inicio](../README.md) -- [Día 8](../dia-08/README.md)
 
 # 📅 Día 7: Aritmética y Comparaciones
 
@@ -111,6 +114,10 @@ Puedes combinar múltiples comparaciones dentro de `[[ ... ]]` usando:
 1. Escribe un script llamado `compara_usuario.sh` que compruebe si el usuario actual ejecutando el script (`$USER`) es el usuario administrador `root` y si el archivo `/etc/shadow` es legible para él.
 2. Si se cumplen ambas condiciones, debe imprimir "Acceso de administrador verificado", de lo contrario debe imprimir "Permisos insuficientes".
 3. Escribe un comando de una sola línea que evalúe si una variable llamada `TEXTO` está vacía. Si está vacía debe asignar el valor por defecto `"Sin datos"`, y luego imprimir el valor de la variable.
+
+<h3 align="center">
+<a href="../dia-06/README.md">Día 6</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-08/README.md">Día 8</a>
+</h3>
 
 ---
 

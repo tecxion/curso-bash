@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-08/README.md">Día 8</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-11/README.md">Día 11</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 9](../dia-09/README.md) -- [Inicio](../README.md) -- [Día 11](../dia-11/README.md)
 
 # 📅 Día 10: Funciones y Modularidad en Scripts
 
@@ -132,6 +135,10 @@ mi_funcion_externa
 2. El script `ejecutor.sh` debe importar el archivo de configuración en su inicio.
 3. Define una función dentro de `ejecutor.sh` llamada `validar_directorio`. Esta debe comprobar si el `DIRECTORIO_DESTINO` definido en `config.env` existe. Si no existe, debe intentar crearlo y retornar `0`. Si falla la creación, debe imprimir un mensaje de error crítico y retornar `1`.
 4. El script principal debe terminar con un `exit 0` si todo fue bien, o un `exit 1` si ocurrió algún fallo en las funciones.
+
+<h3 align="center">
+<a href="../dia-08/README.md">Día 8</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-11/README.md">Día 11</a>
+</h3>
 
 ---
 

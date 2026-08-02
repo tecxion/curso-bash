@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-10/README.md">Día 10</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-12/README.md">Día 12</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 10](../dia-10/README.md) -- [Inicio](../README.md) -- [Día 12](../dia-12/README.md)
 
 # 📅 Día 11: Editores de Flujo (sed y awk)
 
@@ -133,6 +136,10 @@ EOF
 
 1. Escribe un comando de `awk` que calcule el valor total en inventario de todos los productos de la categoría "Accesorios". El valor de un producto se calcula multiplicando `Stock` por `Precio` (`$3 * $4`).
 2. Usa `sed` para eliminar todas las líneas de un archivo que comiencen con el carácter `#` (comentarios de scripts) y las líneas vacías. Pruébalo simulando un archivo con comentarios.
+
+<h3 align="center">
+<a href="../dia-10/README.md">Día 10</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-12/README.md">Día 12</a>
+</h3>
 
 ---
 

@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-02/README.md">Día 2</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-04/README.md">Día 4</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 2](../dia-02/README.md) -- [Inicio](../README.md) -- [Día 4](../dia-04/README.md)
 
 # 📅 Día 3: Permisos y Usuarios en Linux/Bash
 
@@ -134,6 +137,10 @@ chmod 600 clave_privada.pem
    - `754` (Archivo normal)
    - `700` (Directorio)
 3. Escribe el comando para cambiar el propietario de un archivo llamado `sistema.conf` para que pertenezca al usuario `root` y al grupo `sysadmin` en un solo comando (requiere privilegios de administrador).
+
+<h3 align="center">
+<a href="../dia-02/README.md">Día 2</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-04/README.md">Día 4</a>
+</h3>
 
 ---
 

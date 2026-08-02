@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-07/README.md">Día 7</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-09/README.md">Día 9</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 7](../dia-07/README.md) -- [Inicio](../README.md) -- [Día 9](../dia-09/README.md)
 
 # 📅 Día 8: Estructuras Condicionales (if, case)
 
@@ -122,6 +125,10 @@ Al ejecutar un script pasándole argumentos (ej: `./script.sh archivo.txt /var/l
 4. Si es `"stop"`, debe imprimir `"Deteniendo el servicio..."`.
 5. Si es `"restart"`, debe imprimir `"Reiniciando el servicio..."`.
 6. Si recibe cualquier otra cosa (o nada), debe imprimir un mensaje de ayuda indicando el uso correcto: `"Uso: ./gestion_servicios.sh {start|stop|restart}"` y finalizar con un código de salida `exit 1`.
+
+<h3 align="center">
+<a href="../dia-07/README.md">Día 7</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-09/README.md">Día 9</a>
+</h3>
 
 ---
 

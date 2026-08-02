@@ -149,6 +149,10 @@ ls -lah
 2. Regresa a la carpeta `dia1` creada anteriormente utilizando únicamente el carácter especial que te devuelve al directorio anterior (`-`).
 3. Lee el manual del comando `mkdir` y encuentra qué bandera (`flag`) sirve para definir permisos específicos al crear la carpeta (lo profundizaremos en el Día 3).
 
+<h3 align="center">
+<a href="../README.md"> Inicio del Curso </a> | <a href="../dia-02/README.md">Día 2</a>
+</h3>
+
 ---
 
 <details>

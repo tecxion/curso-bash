@@ -1,5 +1,8 @@
-![Titulo](../assets/cursobash.png)
-[Día 14](../dia-14/README.md) -- [Inicio](../README.md)
+<h3 align="center">
+<a href="../dia-14/README.md">Día 14</a> | <a href="../README.md"> Inicio del Curso </a>
+</h3>
+
+![Titulo](../assets/cursobash.png)/
 
 # 📅 Día 15: Automatización y Proyecto Final
 
@@ -201,3 +204,7 @@ exit 0
 ¡Has completado el curso **Aprende Bash en 15 días**! Ahora tienes un entendimiento profundo del sistema operativo Unix, sabes moverte con soltura por la CLI, puedes manipular flujos de datos en pipelines avanzados, procesar datos textuales pesados y construir scripts de automatización robustos, seguros y profesionales.
 
 El siguiente paso es aplicar este conocimiento en tus tareas diarias. ¡Automatiza todo lo que puedas!
+
+<h3 align="center">
+<a href="../dia-14/README.md">Día 14</a> | <a href="../README.md"> Inicio del Curso </a>
+</h3>

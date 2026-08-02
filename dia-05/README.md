@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-04/README.md">Día 4</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-06/README.md">Día 6</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 4](../dia-04/README.md) -- [Inicio](../README.md) -- [Día 6](../dia-06/README.md)
 
 # 📅 Día 5: Procesamiento de Texto Básico
 
@@ -137,6 +140,10 @@ EOF
 1. Escribe un comando compuesto que identifique cuántos salarios únicos existen en la empresa y muestre una lista de dichos salarios ordenados de menor a mayor. (Pistas: debes extraer la columna de salarios con `cut`, ordenarla numéricamente y usar `uniq`).
 2. Utiliza `tr` para cambiar el delimitador `:` por un espacio de tabulador en el archivo `empleados.txt` para mejorar su formato visual en la salida de consola.
 3. Investiga la bandera `-v` de `grep`. Escribe un comando que muestre todas las líneas de `empleados.txt` excluyendo a las personas de "Soporte".
+
+<h3 align="center">
+<a href="../dia-04/README.md">Día 4</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-06/README.md">Día 6</a>
+</h3>
 
 ---
 

@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-11/README.md">Día 11</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-13/README.md">Día 13</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 11](../dia-11/README.md) -- [Inicio](../README.md) -- [Día 13](../dia-13/README.md)
 
 # 📅 Día 12: Gestión de Procesos y Señales
 
@@ -128,6 +131,10 @@ sleep 20
 3. Haz que al activarse el `trap`, elimine un archivo temporal llamado `temporal.dat` que se creará en el directorio actual al iniciar el script.
 4. Para simular un procesamiento real, haz que el script cree `temporal.dat`, imprima `"Generando datos..."`, haga un `sleep 10` y termine.
 5. Ejecuta el script e interrúmpelo manualmente a los pocos segundos pulsando `Ctrl+C`. Verifica que el archivo `temporal.dat` ha sido eliminado automáticamente a pesar de la interrupción repentina.
+
+<h3 align="center">
+<a href="../dia-11/README.md">Día 11</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-13/README.md">Día 13</a>
+</h3>
 
 ---
 

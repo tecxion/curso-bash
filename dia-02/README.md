@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-01/README.md">Día 1</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-03/README.md">Día 3</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 1](../dia-01/README.md) -- [Inicio](../README.md) -- [Día 3](../dia-03/README.md)
 
 # 📅 Día 2: Manipulación y Visualización de Archivos
 
@@ -120,6 +123,10 @@ ls -l acceso_directo.txt
 2. Crea un enlace físico de `lineas.txt` llamado `enlace_fis.txt`.
 3. Elimina el archivo original `lineas.txt` (`rm lineas.txt`).
 4. Intenta leer el contenido de ambos enlaces utilizando `cat`. ¿Cuál de los dos fallará y por qué? Explica el resultado.
+
+<h3 align="center">
+<a href="../dia-01/README.md">Día 1</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-03/README.md">Día 3</a>
+</h3>
 
 ---
 

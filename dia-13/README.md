@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-12/README.md">Día 12</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-14/README.md">Día 14</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 12](../dia-12/README.md) -- [Inicio](../README.md) -- [Día 14](../dia-14/README.md)
 
 # 📅 Día 13: Búsquedas, Compresión y Red
 
@@ -117,6 +120,10 @@ tar -xzvf proyecto.tar.gz
 4. Utilizando `curl`, descarga el contenido de la URL en un archivo temporal llamado `descarga_temp.html`.
 5. Si la descarga fue exitosa, empaqueta y comprime el archivo descargado en un archivo llamado `web_backup_$(date +%F).tar.gz`.
 6. Al finalizar la operación (sea exitosa o falle), el script debe eliminar el archivo temporal `descarga_temp.html` (utiliza el comando `trap` que aprendimos ayer).
+
+<h3 align="center">
+<a href="../dia-12/README.md">Día 12</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-14/README.md">Día 14</a>
+</h3>
 
 ---
 

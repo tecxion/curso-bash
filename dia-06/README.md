@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-05/README.md">Día 5</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-07/README.md">Día 7</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 5](../dia-05/README.md) -- [Inicio](../README.md) -- [Día 7](../dia-07/README.md)
 
 # 📅 Día 6: Variables y Entorno en Bash
 
@@ -139,6 +142,10 @@ echo "Hoy es $fecha_hoy y el usuario activo es $usuario_actual."
 1. Escribe un script llamado `entorno_test.sh` que verifique si existe una variable de entorno llamada `MI_APLICACION`. Si ejecutas el script directamente, probablemente no estará definida.
 2. Investiga cómo puedes "cargar" o importar variables y funciones de un script dentro de la terminal actual sin lanzar un subproceso (Pista: comando `source` o `.`).
 3. Modifica tu script para que exporte una variable llamada `VERSION_APP="2.1.0"` y verifica, desde tu terminal habitual (después de ejecutar el script con `source`), si la variable se importó con éxito usando `echo $VERSION_APP`.
+
+<h3 align="center">
+<a href="../dia-05/README.md">Día 5</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-07/README.md">Día 7</a>
+</h3>
 
 ---
 

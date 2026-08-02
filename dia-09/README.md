@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-08/README.md">Día 8</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-10/README.md">Día 10</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 8](../dia-08/README.md) -- [Inicio](../README.md) -- [Día 10](../dia-10/README.md)
 
 # 📅 Día 9: Bucles e Iteraciones (for, while, until)
 

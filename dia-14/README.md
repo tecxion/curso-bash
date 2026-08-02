@@ -1,5 +1,8 @@
+<h3 align="center">
+<a href="../dia-13/README.md">Día 13</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-15/README.md">Día 15</a>
+</h3>
+
 ![Titulo](../assets/cursobash.png)
-[Día 13](../dia-13/README.md) -- [Inicio](../README.md) -- [Día 15](../dia-15/README.md)
 
 # 📅 Día 14: Depuración, Seguridad y Robustez
 
@@ -94,6 +97,10 @@ Puedes instalarlo en tu sistema (ej. `sudo apt install shellcheck`) o utilizar s
 2. Ejecuta el script e imprime `$?` al final. Verás que devuelve `0` (éxito) a pesar de que el archivo no existía, porque `wc -l` sí funcionó.
 3. Activa `set -o pipefail` en tu script. Vuelve a ejecutarlo y comprueba cómo ahora el código de salida final captura el error del primer comando del pipeline.
 4. Escribe un caso donde quieras usar `set -e` pero necesites ejecutar un comando que _sabes_ que puede fallar (por ejemplo, comprobar si un puerto está abierto) sin que detenga todo el script. Investiga cómo evitar la detención usando el operador lógico OR `|| true` o un bloque condicional.
+
+<h3 align="center">
+<a href="../dia-13/README.md">Día 13</a> | <a href="../README.md"> Inicio del Curso </a> | <a href="../dia-15/README.md">Día 15</a>
+</h3>
 
 ---
 
