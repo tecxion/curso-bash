@@ -1,5 +1,8 @@
 ![Titulo](../assets/cursobash.png)
+
+<h2 align="center">
 [Inicio](../README.md) -- [Día 2](../dia-02/README.md)
+</h2>
 
 # 📅 Día 1: Introducción a Bash y la CLI
 
