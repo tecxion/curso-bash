@@ -1,3 +1,7 @@
+<h3 align="center">
+<a href="../dia-01/README.md">Día 1</a>
+</h3>
+
 ![Titulo](assets/cursobash.png)
 
 # 🎓 Aprende Bash en 15 Días — Guía Completa de Scripting y Terminal
@@ -85,6 +89,10 @@ Cada día de este curso está estructurado con el mismo patrón para garantizar 
 Si encuentras algún error tipográfico, quieres sugerir mejoras en las explicaciones o añadir nuevos ejercicios, ¡no dudes en abrir un _Pull Request_ o una _Issue_!
 
 ¡Comienza hoy mismo haciendo clic en el **[Día 1: Introducción a Bash y la CLI](file:///x:/project1/curso-bash/dias/01_introduccion_a_bash/README.md)**!
+
+<h3 align="center">
+<a href="../dia-01/README.md">Día 1</a>
+</h3>
 
 > [!WARNING]
 >
